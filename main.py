@@ -31,12 +31,9 @@ for operand in operations:
     print(operand)
 
 operand = input("Pick an operations from the line above: ")
-
 num2 = int(input("What's the second number?: "))
 
 answer = operations[operand](num1, num2)
-
-
 print(f"{num1} {operand} {num2} = {answer}")
 
 repeat = input(f"Type 'y' to continue calculating with {answer}, or type 'n' to ext.: ")
